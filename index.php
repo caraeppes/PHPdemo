@@ -1,16 +1,24 @@
 <?php
 
-$phpHeader = "What is PHP?";
+$phpHeader = "PHP Introduction";
 $phpFact1 = "&rarrw; PHP is an acronym for PHP: Hypertext Preprocessor.</br></br>";
+
 $phpFact2 = "&rarrw; PHP is a server-side scripting language designed for web development.  It was created by 
 Rasmus Lerdorf in 1994.</br></br>";
-$phpFact3 = "&rarrw; PHP can be embedded in HTML files and HTML code can be written in PHP files.</br></br>";
-$phpFact4 = "&rarrw; The main difference between PHP and HTML is that PHP code is executed on the server 
-while HTML is executed on the client-side.</br></br>";
-$phpFact5 = "&rarrw; The client only has access to the result that is returned after executing PHP script on the server, 
-not the actual PHP code in the PHP file.</br></br>";
+
+$phpFact3 ="&rarrw;PHP files have extension .php</br></br>";
+
+$phpFact4 = "&rarrw; PHP code are executed on the server, and the result is returned to the browser as plain HTML.</br></br>";
+
+
+$phpFact5 = "&rarrw; PHP can able to run on multiple OS’s(windows , Mac , Unix etc. ) and servers ( Apache , IIS etc. .).
+
+</br></br>";
+
+
+
 $phpFact6 = "&rarrw; PHP can:<UL>&bull; generate dynamic web content</br>&bull; work with databases</br>&bull; encrypt data</br>
-    &bull; receive data from forms</br>&bull; send emails</br>&bull; control user access</br></UL>
+    &bull; control user access</br></UL>
 </p>";
 ?>
 
