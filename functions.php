@@ -15,6 +15,9 @@ $phpFact7 = "&rarrw; The 'global' keyword can be used to access a global variabl
 $phpFact8 = "&rarrw; The 'static' keyword can be used to maintain the value of a local variable each time a function is called.  
  However, the variable is still local to the function.</br></br>";
 
+
+$phpfunction =  "<div><img src='https://image.slidesharecdn.com/php-and-web-services-24402/95/php-and-web-services-8-728.jpg?cb=1179674087'/>";
+
 ?>
 
 <html>
@@ -55,6 +58,7 @@ $phpFact8 = "&rarrw; The 'static' keyword can be used to maintain the value of a
     <?php echo($phpFact6); ?>
     <?php echo($phpFact7); ?>
     <?php echo($phpFact8); ?>
+    <?php echo($phpfunction); ?>
     <a href = "index.php">Index</a>
 </h3>
 </body>

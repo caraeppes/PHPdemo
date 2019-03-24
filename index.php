@@ -12,8 +12,8 @@ $phpFact4 = "&rarrw; PHP code are executed on the server, and the result is retu
 
 
 $phpFact5 = "&rarrw; PHP can able to run on multiple OS’s(windows , Mac , Unix etc. ) and servers ( Apache , IIS etc. .).
-
 </br></br>";
+
 
 
 
