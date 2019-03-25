@@ -64,7 +64,7 @@ $phpFact6 = "&rarrw; PHP can:<UL>&bull; generate dynamic web content</br>&bull; 
     <a href="functions.php">Functions</a> &bull;
     <a href="arrays.php">Arrays</a> &bull;
     <a href="objects.php">Objects</a> &bull;
-    <a href="webConcepts.php">Web Concepts</a> &bull;
+    <a href="webConcepts/webConcepts.php">Web Concepts</a> &bull;
     <a href="database.php">Database</a>
 
 
