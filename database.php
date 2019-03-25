@@ -158,9 +158,15 @@ function baseTable($pstm)
 </h1>
 
 <h2>
+
+    &rarrw; PHP can able to run on multiple OS’s(windows , Mac , Unix etc. ) and servers ( Apache , IIS etc. .).
     <?php
-    echo baseTable($default);
-    removeTheBears();
+
+
+    //echo baseTable($default);
+
+    //addSomething();
+    //removeTheBears();
     ?>
 </h2>
 </body>
