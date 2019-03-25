@@ -7,7 +7,17 @@ include 'include.php';
 <html>
 <body>
 
-<h1>FORMS</h1>
+<h1>Forms</h1>
+
+<p>
+    &rarrw; $_GET is a PHP superglobal. It is an associative array, and its values are passed to the current script via the URL parameters.<br>
+    Information sent in forms using the Get method is visible to everyone.<br><br>
+    &rarrw;  $_POST is a PHP superglobal. It is an associative array, and its values are passed to the current script via the HTTP POST method.<br>
+    Information sent in forms using the Post method is invisible to everyone.<br><br>
+    &rarrw; $_SESSION is a PHP superglobal.  It is used to store information about a user over multiple pages during a browsing session.<br>
+    The session_start() function is used to start a session.  The session_unset() function unsets all session variables.  The session_destroy() function destroys a session.<br>
+</p>
+
 <b>$_GET Example</b><br>
 <form action="getexample.php" method="get">
     Name: <input type="text" name="name"><br>
