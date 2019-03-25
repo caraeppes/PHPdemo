@@ -1,20 +1,45 @@
 <?php
 
 $phpHeader = "PHP Variables";
-$phpFact1 = "&rarrw; PHP is a loosely type language.</br></br>";
-$phpFact2 = "&rarrw; Variables begin with '$' followed by the name of the variable.</br></br>";
-$phpFact3 = "&rarrw; PHP automatically associates a data type with a variable depending on its value.</br></br>";
-$phpFact4 = "&rarrw; In PHP 7, type declarations were added.  Data type can be specified by enabling the 'strict' requirement.</br></br>";
-$phpFact5 = "&rarrw; Variables declared outside of a function have a global scope.  They can only be accessed outside of functions</br></br>";
-$phpFact6 = "&rarrw; Variables declared within a function have a local scope.  They can only be accessed within that function.</br></br>";
-$phpFact7 = "&rarrw; The 'global' keyword can be used to access a global variable from within a function.</br></br>";
-$phpFact8 = "&rarrw; The 'static' keyword can be used to maintain the value of a local variable each time a function is called.  
- However, the variable is still local to the function.</br></br>"
+$phpFact1 = "&rarrw; PHP is a loosely typed language.</br></br>";
+$phpFact1 = "&rarrw; Variables begin with '$' followed by the name of the variable.</br></br>";
+$phpFact2 = "&rarrw; PHP automatically associates a data type with a variable depending on its value.</br></br>";
+$phpFact3 = "&rarrw; Variable names are case-sensitive ($ age and $ AGE are two different variables).</br></br>";
+$phpFact4 = "&rarrw;DATA Types :String,Integer,Float, Boolean,Array,Object,NULL.</br></br>";
+$phpFact5 ="&rarrw; Two basic ways to get output echo and print.</br></br>";
+
+$phpvariable =  "<div><img src='http://1.bp.blogspot.com/-J58F4SLAY_M/UXNYuSaEyyI/AAAAAAAAAKo/dsOtByjAZaY/s1600/variable.PNG'/>";
+
+
 
 ?>
 
 <html>
+<?php echo "<body style='background-color:lavender'>"; ?>
+
 <head>
+    <style>
+
+        h1 {
+            text-align: center;
+            color: #191970;
+        }
+
+        p {
+            text-align: justify;
+            color: #191970;
+        }
+
+        ul {
+            color: #191970;
+        }
+
+        a {
+            align-items: center;
+            color:  #191970;
+        }
+    </style>
+
 <body>
 <h1>
     <?php echo($phpHeader); ?>
@@ -24,11 +49,10 @@ $phpFact8 = "&rarrw; The 'static' keyword can be used to maintain the value of a
     <?php echo($phpFact2); ?>
     <?php echo($phpFact3); ?>
     <?php echo($phpFact4); ?>
-    <?php echo($phpFact6); ?>
-    <?php echo($phpFact7); ?>
-    <?php echo($phpFact8); ?>
-    <a href = "index.php">Index</a>
-    <a href = "/variables.php">Variables</a>
+    <?php echo  "$phpvariable</br></br>";
+    ?>
+    <a href = "index.php">Index</a>&bull;
+    <a href="functions.php">Functions</a>
 </h3>
 </body>
 </head>
