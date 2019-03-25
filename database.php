@@ -42,6 +42,14 @@ $trails = 'SELECT * FROM resorts ORDER BY openTrails DESC';
 $above1foot = 'SELECT * FROM resorts WHERE expectedSnowFall > 12.0 ORDER BY expectedSnowFall DESC';
 
 
+function addSomething(){
+    global $connection;
+
+    $sql = $connection->query('INSERT INTO `snowReport`.`resorts` (`resortName`, `snowFallLast72`, `expectedSnowFall`, `base`, `openTrails`, ) VALUES (\'Bear 122\', 30, 35, 200, 122)');
+    $connection->exec($sql);
+
+}
+
 function baseTable($pstm)
 {
     global $connection;
@@ -64,6 +72,7 @@ function baseTable($pstm)
     } else {
         echo "0 results";
     }
+
 }
 
 
@@ -144,7 +153,8 @@ function baseTable($pstm)
 
 <h2>
     <?php
-    echo baseTable($above1foot);
+    echo baseTable($default);
+    addSomething();
     //$lastSnowTable = baseTable($last72);
     //$expectedSnowTable = baseTable($next72);
     //$baseSnowTable = baseTable($base);
