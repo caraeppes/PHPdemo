@@ -137,7 +137,7 @@ $imageArray =array($phpexample1,$phpexample3)
 <a href="functions.php">Functions</a> &bull;
 <a href="arrays.php">Arrays</a> &bull;
 <a href="objects.php">Objects</a> &bull;
-<a href="webConcepts.php">Web Concepts</a> &bull;
+<a href="webConcepts/webConcepts.php">Web Concepts</a> &bull;
 <a href="database.php">Database</a>
 
 

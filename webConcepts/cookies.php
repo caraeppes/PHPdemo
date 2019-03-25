@@ -7,7 +7,7 @@
 <body>
 
 <h1>Cookies<br>
-<img src = "images/cookies.jpg" width = "400" height = "300"></h1>
+<img src = "../images/cookies.jpg" width = "400" height = "300"></h1>
 
 
 <b>$_COOKIES Example</b><br>

@@ -10,7 +10,7 @@ include 'include.php';
 <h1>Forms<br>
 
 
-<img src="images/getvspost.png" width = "400" height = "300"></h1>
+<img src="../images/getvspost.png" width = "400" height = "300"></h1>
 
 
 <b>$_GET Example</b>
