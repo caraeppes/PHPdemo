@@ -8,6 +8,7 @@ include 'include.php';
 <body>
 
 <h1>Web Concepts</h1>
+<img src = "images/phplogo.png" width = "400" height = 250>
 
 <h2>
 <a href = "forms.php">Forms</a>

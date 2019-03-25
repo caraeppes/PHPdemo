@@ -11,7 +11,7 @@ echo "<body style='background-color:lavender'>"; ?>
     }
 
     body, p {
-        text-align: justify;
+        text-align: center;
         color: #191970;
     }
 
