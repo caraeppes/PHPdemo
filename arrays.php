@@ -29,9 +29,9 @@ $phplogo =  "<div><img src='http://www.galitein.com/ga-content/uploads/2017/01/p
 
 $phpexample1 =  "<div><img src='https://i2.wp.com/www.tutorialscan.com/wp-content/uploads/2018/03/PHP-Arrays.jpg?resize=554%2C364' alt='Array1' />";
 
-$phpexample2 =  "<div><img src='https://i.ytimg.com/vi/wLoPGWwMamc/maxresdefault.jpg' alt='Array' />";
+$phpexample2 =  "<div><img src='https://www.jquery-az.com/wp-content/uploads/2015/12/8.4-PHP-associative-array.png' alt='Array' />";
 $phpexample3 =  "<div><img src='https://image.slidesharecdn.com/class4-phparrays-150930071103-lva1-app6891/95/class-4-php-arrays-9-638.jpg?cb=1443597388' alt='Array2' />";
-$imageArray =array($phpexample1,$phpexample3)
+$imageArray =array($phpexample1,$phpexample2)
 
 ?>
 
@@ -105,10 +105,10 @@ $imageArray =array($phpexample1,$phpexample3)
     <?php
     echo  " Below sort types displaying here with For each loop on Array</br></br>";
 
-    foreach ( $sortArray as $item ) {
+    foreach ( $sortArray as $key =>$value ) {
 
 
-          echo  " $item</br></br>";
+          echo  " $value</br></br>";
 
     }
 
