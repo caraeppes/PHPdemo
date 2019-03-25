@@ -98,7 +98,10 @@ $imageArray =array($phpexample1,$phpexample3)
 
 <p2>
     <?php echo($phpSort); ?>
-<!--    --><?php //arsort($sortArray);?>
+
+
+<!-- --><?php //arsort($sortArray);?>
+
     <?php
     echo  " Below sort types displaying here with For each loop on Array</br></br>";
 
@@ -129,7 +132,13 @@ $imageArray =array($phpexample1,$phpexample3)
 
 ?>
 
-
+<a href="index.php">Index</a> &bull;
+<a href="variables.php">Variables</a> &bull;
+<a href="functions.php">Functions</a> &bull;
+<a href="arrays.php">Arrays</a> &bull;
+<a href="objects.php">Objects</a> &bull;
+<a href="webConcepts.php">Web Concepts</a> &bull;
+<a href="database.php">Database</a>
 
 
 
