@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7737a67-01ad-4b68-b213-8a13ee8b3b83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/variables.php" beforeDir="false" afterPath="$PROJECT_DIR$/variables.php" afterDir="false" />
+=======
       <change beforePath="$PROJECT_DIR$/cookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/cookies.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forms.php" beforeDir="false" afterPath="$PROJECT_DIR$/forms.php" afterDir="false" />
+>>>>>>> a45170e5555191750f096fa79d523121c41924e6
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +39,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+=======
             <state relative-caret-position="45">
               <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="20" />
+>>>>>>> a45170e5555191750f096fa79d523121c41924e6
               <folding>
                 <element signature="e#0#7#0" expanded="true" />
                 <element signature="e#0#7#0" expanded="true" />
@@ -50,8 +60,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/variables.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="212">
+              <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+=======
             <state relative-caret-position="315">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
+>>>>>>> a45170e5555191750f096fa79d523121c41924e6
               <folding>
                 <element signature="e#0#7#0" expanded="true" />
                 <element signature="e#0#7#0" expanded="true" />
@@ -61,6 +76,15 @@
                 <element signature="e#0#7#0" expanded="true" />
                 <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -179,6 +203,7 @@
         <option value="$PROJECT_DIR$/arrays.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/variables.php" />
         <option value="$PROJECT_DIR$/welcome_get.php" />
         <option value="$PROJECT_DIR$/final.php" />
@@ -197,10 +222,16 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="733" />
+=======
     <option name="x" value="10" />
     <option name="y" value="23" />
     <option name="width" value="1260" />
     <option name="height" value="678" />
+>>>>>>> a45170e5555191750f096fa79d523121c41924e6
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -265,12 +296,24 @@
       <updated>1553260109136</updated>
       <workItem from="1553260110614" duration="6841000" />
       <workItem from="1553283126263" duration="1215000" />
+<<<<<<< HEAD
+      <workItem from="1553353813704" duration="17781000" />
+=======
       <workItem from="1553353813704" duration="14886000" />
       <workItem from="1553474292872" duration="13816000" />
+>>>>>>> a45170e5555191750f096fa79d523121c41924e6
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="25837000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="733" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746365" />
+=======
     <option name="totallyTimeSpent" value="36758000" />
   </component>
   <component name="ToolWindowManager">
@@ -278,6 +321,7 @@
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21756978" />
+>>>>>>> a45170e5555191750f096fa79d523121c41924e6
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -290,7 +334,11 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32917318" />
+<<<<<<< HEAD
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27925116" />
+=======
       <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28156996" />
+>>>>>>> a45170e5555191750f096fa79d523121c41924e6
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -432,6 +480,19 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#7#0" expanded="true" />
+            <element signature="e#0#7#0" expanded="true" />
+            <element signature="e#0#7#0" expanded="true" />
+            <element signature="e#0#7#0" expanded="true" />
+            <element signature="e#178#184#0" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+=======
     <entry file="file://$PROJECT_DIR$/getexample.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -476,24 +537,42 @@
             <element signature="e#200#207#0#HTML" expanded="true" />
             <element signature="e#276#283#0#HTML" expanded="true" />
             <element signature="e#349#356#0#HTML" expanded="true" />
+>>>>>>> a45170e5555191750f096fa79d523121c41924e6
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/variables.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="212">
+          <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+=======
         <state relative-caret-position="45">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="20" />
+>>>>>>> a45170e5555191750f096fa79d523121c41924e6
           <folding>
             <element signature="e#0#7#0" expanded="true" />
             <element signature="e#0#7#0" expanded="true" />
             <element signature="e#0#7#0" expanded="true" />
+<<<<<<< HEAD
+            <element signature="e#0#7#0" expanded="true" />
+            <element signature="e#0#7#0" expanded="true" />
+            <element signature="e#0#7#0" expanded="true" />
+=======
             <element signature="e#120#126#0" expanded="true" />
+>>>>>>> a45170e5555191750f096fa79d523121c41924e6
             <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+=======
     <entry file="file://$PROJECT_DIR$/forms.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -503,6 +582,7 @@
             <element signature="e#318#325#0#HTML" expanded="true" />
             <element signature="e#558#565#0#HTML" expanded="true" />
           </folding>
+>>>>>>> a45170e5555191750f096fa79d523121c41924e6
         </state>
       </provider>
     </entry>

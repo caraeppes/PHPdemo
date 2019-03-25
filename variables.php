@@ -8,7 +8,7 @@ $phpFact3 = "&rarrw; Variable names are case-sensitive ($ age and $ AGE are two 
 $phpFact4 = "&rarrw;DATA Types :String,Integer,Float, Boolean,Array,Object,NULL.</br></br>";
 $phpFact5 ="&rarrw; Two basic ways to get output echo and print.</br></br>";
 
-$phpvariable =  "<div><img src='http://1.bp.blogspot.com/-J58F4SLAY_M/UXNYuSaEyyI/AAAAAAAAAKo/dsOtByjAZaY/s1600/variable.PNG'/>";
+
 
 
 
@@ -49,8 +49,8 @@ $phpvariable =  "<div><img src='http://1.bp.blogspot.com/-J58F4SLAY_M/UXNYuSaEyy
     <?php echo($phpFact2); ?>
     <?php echo($phpFact3); ?>
     <?php echo($phpFact4); ?>
-    <?php echo  "$phpvariable</br></br>";
-    ?>
+    <?php show_source("test.php"); ?></br></br>
+
     <a href = "index.php">Index</a>&bull;
     <a href="functions.php">Functions</a>
 </h3>
