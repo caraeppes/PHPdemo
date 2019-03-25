@@ -45,9 +45,15 @@ $above1foot = 'SELECT * FROM resorts WHERE expectedSnowFall > 12.0 ORDER BY expe
 function addSomething(){
     global $connection;
 
-    $sql = $connection->query('INSERT INTO `snowReport`.`resorts` (`resortName`, `snowFallLast72`, `expectedSnowFall`, `base`, `openTrails`, ) VALUES (\'Bear 122\', 30, 35, 200, 122)');
+    $sql = ('INSERT INTO resorts (resortName, snowFallLast72, expectedSnowFall, base, openTrails) VALUES (\'Bear122\', 30, 35, 200, 122)');
     $connection->exec($sql);
 
+}
+
+function removeTheBears(){
+    global $connection;
+    $sql = ('Delete from resorts WHERE resortName = \'Bear122\'');
+    $connection->exec($sql);
 }
 
 function baseTable($pstm)
@@ -154,11 +160,8 @@ function baseTable($pstm)
 <h2>
     <?php
     echo baseTable($default);
-    addSomething();
-    //$lastSnowTable = baseTable($last72);
-    //$expectedSnowTable = baseTable($next72);
-    //$baseSnowTable = baseTable($base);
-    //$trailsTable = baseTable($trails);?>
+    removeTheBears();
+    ?>
 </h2>
 </body>
 </head>
